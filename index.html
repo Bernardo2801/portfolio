@@ -18,13 +18,16 @@
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/languages.css">
-
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
 </head>
 
 <body>
 
-    <div class="main">
+    <main>
 
+        <!-- About Me -->
         <header class="header">
 
             <img src="/assets/img/my-photo.jpg" alt="Foto do Bernardo A. Alves." class="photo">
@@ -38,15 +41,22 @@
             <div class="information">
                 <p class="job">Desenvolvedor Junior</p>
                 <p class="location">Brasília - DF</p>
-                <p class="phone">(77) 9 9910-3979</p>
-                <p class="email">bernardoaraujoalves@gmail.com</p>
+                <p class="phone">
+                    <a href="tel:(77) 9 9910-3979">(77) 9 9910-3979</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:bernardoaraujoalves@gmail.com">bernardoaraujoalves@gmail.com</a>
+                </p>
             </div>
 
         </header>
 
-        <section class="acordeon open">
+        <!-- Languages -->
+        <section class="acordeon">
 
-            <button class="trigger" type="button">Idiomas</button>
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
 
             <div class="content">
                 <ul class="languages">
@@ -57,11 +67,112 @@
                 </ul>
             </div>
 
+        </section>
 
+        <!-- Projects -->
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                <h2>Projects</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+
+                    <li>
+                        <h3 class="title github">Criando um App de Lembrete</h3>
+                        <a href="https:://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+
+                    <li>
+                        <h3 class="title github">Criando um App de Lembrete</h3>
+                        <a href="https:://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+
+                    <li>
+                        <h3 class="title github">Criando um App de Lembrete</h3>
+                        <a href="https:://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+
+                </ul>
+            </div>
 
         </section>
 
-    </div>
+        <!-- Professional Experience -->
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="period">Jan 2020 - current</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, at aliquid asperiores
+                            saepe voluptatem quos dolorum nemo quaerat? Eum ut excepturi earum cum quisquam hic,
+                            perspiciatis!
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="period">Jan 2020 - current</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, at aliquid asperiores
+                            saepe voluptatem quos dolorum nemo quaerat? Eum ut excepturi earum cum quisquam hic,
+                            perspiciatis!
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+        <section class="acordeon open">
+
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li><img src="/assets/img/icons/html-icon.svg" alt="HTML"></li>
+                            <li><img src="/assets/img/icons/css-icon.svg" alt="CSS"></li>
+                            <li><img src="/assets/img/icons/js-icon.svg" alt="JavaScript"></li>
+                            <li><img src="/assets/img/icons/php-icon.svg" alt="PHP"></li>
+                            <li><img src="/assets/img/icons/postgres-icon.svg" alt="PostgreSQL"></li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Habilidades pessoais:</h3>
+                        <ul>
+                            <li>Pensamento analítico  resolução de problemas;</li>
+                            <li>Comunicação e colaboração;</li>
+                            <li>Visão de negócios;</li>
+                            <li>Flexibilidade e capacidade de se adaptar a mudanças;</li>
+                            <li>Proatividade;</li>
+                            <li>Trabalho remoto.</li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
 
     <script src="/assets/js/acordeon.js"></script>
 </body>
