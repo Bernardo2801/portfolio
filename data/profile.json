@@ -41,6 +41,42 @@
     "Português BR",
     "Inglês (intermediário)"
   ],
+  "education": {
+    "certificates": [
+      {
+        "name": "Certificado HTML",
+        "logo": "https://hermes.dio.me/tracks/62ed1f1d-8d76-4bbc-905f-e73d20cb82f5.png",
+        "url": "https://hermes.dio.me/certificates/cover/RUT9PHDY.jpg"
+      },
+      {
+        "name": "Certificado CSS",
+        "logo": "https://hermes.dio.me/tracks/da043c7a-7189-441e-bf28-adc2d05a4934.png",
+        "url": "https://hermes.dio.me/certificates/cover/TFNCAKPN.jpg"
+      },
+      {
+        "name": "Certificado JavaScript",
+        "logo": "https://hermes.dio.me/tracks/55e7040f-775b-47e5-a8fb-69d002ca17a9.png",
+        "url": "#"
+      },
+      {
+        "name": "Certificado PHP",
+        "logo": "https://hermes.dio.me/tracks/20b04ddf-42a7-4945-b004-e6cd8b1a798f.png",
+        "url": "#"
+      },
+      {
+        "name": "Certificado Postgresql",
+        "logo": "https://hermes.dio.me/courses/badge/ce655a83-1d8f-46ad-a831-6242d6b4aee8.png",
+        "url": "#"
+      }
+    ],
+    "educationDescription": [
+      {
+        "title": "Centro Universitário de BrasiliaL",
+        "description": "UNICEUB - 6° semestre",
+        "period": "01/2022 - 12/2025"
+      }
+    ]
+  },
   "portfolio": [
     {
       "name": "Controle de Estoque | Linguagem: PHP com framework de Laravel | Banco: PostgreSQL",
