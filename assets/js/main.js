@@ -48,8 +48,14 @@ function updateEducation(profileData) {
 
 // function education description
 function updateEducationDescription(profileData) {
-    const educationDesc = document.getElementById('profile.education.description')
-    educationDesc = profileData.educationDesc.educationDescriptions.map(educationDescription => `<li> <h3 class="title">${educationDescription.title}</h3><span>${educationDescription.description}</span><span class="calendar-college">${educationDescription.period}</span></li>`).join('')
+    const educationDesc = document.getElementById('profile.education.description');
+    educationDesc.innerHTML = profileData.education.educationDescriptions.map(educationDescription => `
+        <li>
+            <h3 class="title">${educationDescription.title}</h3>
+            <span>${educationDescription.description}</span>
+            <span class="calendar-college">${educationDescription.period}</span>
+        </li>
+    `).join('');
 }
 
 // function portfolio
