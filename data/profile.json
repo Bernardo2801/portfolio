@@ -9,23 +9,23 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/Bernardo2801/portfolio/ec0ce7727b4d5838a8894feda47aad774cc8df3b/assets/img/icons/html-icon.svg"
+        "logo": "https://github.com/Bernardo2801/portfolio/blob/main/data/img/html.png?raw=true"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/Bernardo2801/portfolio/ec0ce7727b4d5838a8894feda47aad774cc8df3b/assets/img/icons/css-icon.svg"
+        "logo": "https://github.com/Bernardo2801/portfolio/blob/main/data/img/css.png?raw=true"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/Bernardo2801/portfolio/ec0ce7727b4d5838a8894feda47aad774cc8df3b/assets/img/icons/js-icon.svg"
+        "logo": "https://github.com/Bernardo2801/portfolio/blob/main/data/img/js.png?raw=true"
       },
       {
         "name": "PHP",
-        "logo": "https://raw.githubusercontent.com/Bernardo2801/portfolio/ec0ce7727b4d5838a8894feda47aad774cc8df3b/assets/img/icons/php-icon.svg"
+        "logo": "https://github.com/Bernardo2801/portfolio/blob/main/data/img/php.png?raw=true"
       },
       {
         "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/Bernardo2801/portfolio/ec0ce7727b4d5838a8894feda47aad774cc8df3b/assets/img/icons/postgres-icon.svg"
+        "logo": "https://github.com/Bernardo2801/portfolio/blob/main/data/img/postgresql.png?raw=true"
       }
     ],
     "softSkills": [
