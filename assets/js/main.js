@@ -46,16 +46,10 @@ function updateEducation(profileData) {
     education.innerHTML = profileData.education.certificates.map(certificate => `<a href="${certificate.url}"><li><img src="${certificate.logo}" alt="${certificate.name}" title="${certificate.name}"></li> </a>`).join('')
 }
 
-// function education description
+// function educationDescription
 function updateEducationDescription(profileData) {
-    const educationDesc = document.getElementById('profile.education.description');
-    educationDesc.innerHTML = profileData.education.educationDescriptions.map(educationDescription => `
-        <li>
-            <h3 class="title">${educationDescription.title}</h3>
-            <span>${educationDescription.description}</span>
-            <span class="calendar-college">${educationDescription.period}</span>
-        </li>
-    `).join('');
+    const edDescription = document.getElementById('profile.education.description')
+    edDescription.innerText = profileData.education.description.map(description => `<li><h3 class="title">${educationDescription.title}</h3><span>${educationDescription.description}</span><span class="calendar-college">${educationDescription.period}</span></li>`).join('')
 }
 
 // function portfolio
