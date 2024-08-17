@@ -70,13 +70,6 @@
       }
     ]
   },
-  "educationDescription" : [
-      {
-        "title": "Centro Universitário de Brasilia",
-        "description": "UNICEUB - 6° semestre",
-        "period": "01/2022 - 12/2025"
-      }
-  ],
   "portfolio": [
     {
       "name": "Controle de Estoque | Linguagem: PHP com framework de Laravel | Banco: PostgreSQL",
