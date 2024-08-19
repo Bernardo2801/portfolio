@@ -43,7 +43,7 @@ function updateLanguages(profileData) {
 // function education
 function updateEducation(profileData) {
     const education = document.getElementById('profile.education')
-    education.innerHTML = profileData.education.certificates.map(certificate => `<a href="${certificate.url}"><li><img src="${certificate.logo}" alt="${certificate.name}" title="${certificate.name}"></li> </a>`).join('')
+    education.innerHTML = profileData.education.certificates.map(certificate => `<a href="${certificate.url}" target="_blank"><li><img src="${certificate.logo}" alt="${certificate.name}" title="${certificate.name}"></li> </a>`).join('')
 }
 
 // function course 
