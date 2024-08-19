@@ -49,7 +49,7 @@ function updateEducation(profileData) {
 // function course 
 function updateCourse(profileData) {
     const course = document.getElementById('profile.education2.course')
-    course.innerHTML = profileData.education.courses.map(course => `<li><h3 class="title">${education.college}</h3> <span>${education.info}</span> <span class="calendar-college">${education.period}</span> </li>`)
+    course.innerHTML = profileData.education.courses.map(education => `<li><h3 class="title">${education.college}</h3> <span>${education.info}</span> <span class="calendar-college">${education.period}</span> </li>`)
 }
 
 // function portfolio
