@@ -68,7 +68,14 @@
         "logo": "https://hermes.dio.me/courses/badge/ce655a83-1d8f-46ad-a831-6242d6b4aee8.png",
         "url": "#"
       }
-    ]
+    ],
+    "courses": [
+      {
+        "college": "Centro Universitário de Brasília - Uniceub",
+        "info": "Ciência da Computação - 6º semestre",
+        "period": "01/2022 - 12/2025"
+      }
+    ]    
   },
   "portfolio": [
     {

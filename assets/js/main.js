@@ -46,6 +46,12 @@ function updateEducation(profileData) {
     education.innerHTML = profileData.education.certificates.map(certificate => `<a href="${certificate.url}"><li><img src="${certificate.logo}" alt="${certificate.name}" title="${certificate.name}"></li> </a>`).join('')
 }
 
+// function course 
+function updateCourse(profileData) {
+    const course = document.getElementById('profile.education2.course')
+    course.innerHTML = profileData.education.courses.map(course => `<li><h3 class="title">${education.college}</h3> <span>${education.info}</span> <span class="calendar-college">${education.period}</span> </li>`)
+}
+
 // function portfolio
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
@@ -86,4 +92,5 @@ function updateProfessionalExperience(profileData) {
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
     updateEducation(profileData)
+    updateCourse(profileData)
 })()
