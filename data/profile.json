@@ -34,7 +34,7 @@
       "Visão de negócios",
       "Flexibilidade e capacidade de se adaptar a mudanças",
       "Proatividade",
-      "Trabalho"
+      "Trabalho remoto"
     ]
   },
   "languages": [
@@ -67,6 +67,11 @@
         "name": "Certificado Postgresql",
         "logo": "https://hermes.dio.me/courses/badge/ce655a83-1d8f-46ad-a831-6242d6b4aee8.png",
         "url": "https://hermes.dio.me/certificates/cover/QFFMYPQF.jpg"
+      },
+      {
+        "name": "Certificado Google Cybersecurity",
+        "logo": "https://images.credly.com/size/680x680/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/D1FP34N9SHW6"
       }
     ],
     "courses": [
